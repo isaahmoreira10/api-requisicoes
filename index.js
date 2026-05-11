@@ -25,9 +25,25 @@ app.post("/imc",(req, res) =>{
     })
 
 
-}
+})
+
+app.post("/media",(req, res) =>{
+    const { nota1, nota2}=req.body;
 
 
+    if (!nota1 || !nota2) {
+        return res,status(404).json({erro: "Dados incompletos"})
+    }
+
+    const media =(nota1 + nota2)/2 ;
+    res.json({
+        nota1,
+        nota2,
+        media: media.toFixed(2)
+    })
+
+
+})
 app.listen(port,() => {
     console.log(`Servidor rodando em http://localhost:${port}`)
 
