@@ -39,7 +39,7 @@ app.post("/media",(req, res) =>{
     res.json({
         nota1,
         nota2,
-        media: media.toFixed(2)
+        media: parseFloat(media)
     })
 
 
