@@ -1,10 +1,12 @@
 const express = require("express");
 const fs = require("fs");
+const cors = require("cors");
 
 const app = express();
 const port = 3000;
 
 app.use(express.json());
+app.use(cors());
 
 app.get("/saudacao",(req, res) => {
 })
@@ -31,7 +33,7 @@ app.post("/media",(req, res) =>{
     const { nota1, nota2}=req.body;
 
 
-    if (media >= 7) {
+    if (!nota1 && !nota2) {
         return res,status(404).json({erro: "Dados incompletos"})
     }
 
