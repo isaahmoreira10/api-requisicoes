@@ -16,5 +16,23 @@
     "cidade": "Campo Largo",
     "estado": "Paraná",
     "numero": "3"
+  },
+  {
+    "nome": "r",
+    "CPF": "4",
+    "CEP": "83601390",
+    "rua": "Avenida Ademar de Barros",
+    "cidade": "Campo Largo",
+    "estado": "Paraná",
+    "numero": "41"
+  },
+  {
+    "nome": "tt",
+    "CPF": "555",
+    "CEP": "83601390",
+    "rua": "Avenida Ademar de Barros",
+    "cidade": "Campo Largo",
+    "estado": "Paraná",
+    "numero": "41"
   }
 ]
