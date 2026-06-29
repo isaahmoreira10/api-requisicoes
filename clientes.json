@@ -1,0 +1,20 @@
+[
+  {
+    "nome": "Nicolas",
+    "CPF": "032",
+    "CEP": "83601690",
+    "rua": "Rua Cecília Martini Puppi",
+    "cidade": "Campo Largo",
+    "estado": "Paraná",
+    "numero": "414544"
+  },
+  {
+    "nome": "f",
+    "CPF": "2",
+    "CEP": "83601390",
+    "rua": "Avenida Ademar de Barros",
+    "cidade": "Campo Largo",
+    "estado": "Paraná",
+    "numero": "3"
+  }
+]
